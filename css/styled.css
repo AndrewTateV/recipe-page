@@ -1,0 +1,142 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+body{
+font-family: "Young Serif",  serif;;
+line-height: 1.3;
+font-weight: 400;
+background-color: hsl(30, 54%, 90%);
+color: hsl(30, 10%, 34%);
+}
+p,ul,ol,.Nu-grid{
+                    font-family: "Outfit";
+                    }
+.container{
+width: 53rem;
+
+margin: 0 auto;
+background-color: hsl(0, 0%, 100%);
+padding: 3.1rem;
+border-radius: 1rem;
+}
+.img-container{
+text-align: center;
+width: 100%;
+}
+img{
+  width: 100%;
+  height: auto;
+   border-radius: 1rem;
+                    
+}
+
+h1{
+font-size: 27px;
+margin-top: 1rem;
+color: hsl(24, 5%, 18%);
+}
+
+
+.hero-intro{
+margin-top: 1rem;
+font-size: 1.19rem;
+}
+
+.hero-prepare{
+background-color: #fdf2f8;
+margin-top: 2rem;
+height: auto;
+border-radius: 1rem;
+padding: 1.8rem 1.5rem;
+}
+.hero-prepare span{
+color: hsl(332, 51%, 32%);
+font-weight: bold;
+}
+.hero-ul{
+margin-left: 2rem;
+margin-top: 0.9rem;
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+
+}
+/* 改变点的颜色 但是不改变文本颜色！！！！！！ */
+.hero-ul li::marker{
+color: hsl(332, 51%, 32%) ;
+}
+
+
+.ingre{
+margin-top: 2rem;
+border-bottom: 1px solid hsl(30, 54%, 90%);
+padding-bottom: 2.5rem;
+
+}
+
+.ingre-title,.instru-title,.Nu-title{
+color: hsl(14, 45%, 36%);
+font-size: 1.8rem;
+}
+
+.ingre-ul{
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+margin-top: 1.5rem;
+margin-left: 2rem;
+}
+.ingre-ul li::marker{
+color: hsl(14, 45%, 36%);
+}
+
+.instru{
+margin-top: 2rem;
+border-bottom: 1px solid hsl(30, 54%, 90%);
+padding-bottom: 2.5rem;
+}
+
+.instru-ol{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.8rem;
+                    margin-top: 1.5rem;
+                    margin-left: 2rem;
+
+
+}
+
+.instru-ol li::marker{
+color: hsl(14, 45%, 36%);
+font-weight: bold;
+}
+
+.Nu-title{
+                    margin-top: 2rem;
+}
+.Nu-p{
+margin-top: 1rem;
+}
+
+.Nu-grid{
+margin-top: 2rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 2rem;
+
+}
+.Nu-grid span{
+padding: 0 2.2rem 1rem;
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.Nu-grid span:nth-child(even){
+color: hsl(14, 45%, 36%);
+font-weight: bold;
+}
+

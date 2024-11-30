@@ -1,0 +1,32 @@
+@media (max-width: 34em) {
+  body {
+    line-height: 2;
+    font-size: 20px;
+  }
+  .container {
+min-width: 24rem;
+padding: 28rem 3.1rem 3.1rem;
+position: relative;   
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .hero-intro {
+    font-size: 20px;
+  }
+  .ingre-title,
+  .instru-title,
+  .Nu-title {
+    font-size: 3.5rem;
+  }
+
+ 
+  img{
+border-radius: 0;
+position: absolute;
+top: 0;
+left: 0;
+
+  }
+}
